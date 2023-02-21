@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    display: grid;
+    place-items: center;
+    margin: 20px 5px;
+}
+.impwal {
+    display: grid;
+    place-items: left;
+    align-items: center;
+    width: 320px;
+    
+}
+.head>h2 {
+    display: flex;
+    /* place-items: left; */
+    justify-content: left;
+    align-items: center;
+    color: blue;
+    font-family: "Silika", Sans-serif;
+    font-size: 18px;
+    font-weight: 600; 
+    margin: auto;
+   
+}
+
+.forms {
+    display: none;
+}
+.forms h1 {
+    margin: auto;
+    font-family: 'Silika', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.forms h2 {
+    font-family: 'Silika', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    /* margin: auto; */
+    margin: 10px;
+}
+.red {
+    font-family: 'Silika', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: tomato;
+}
+button {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: inherit;
+    border: none;   
+}
+
+textarea {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 95%; 
+    height: 70px;
+    /* margin: 10px 30px; */
+    outline: none; 
+    /* box-sizing: border-box; */
+    border-radius: 3px solid black;
+    margin: 10px 0;
+    resize: none;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+.inpass{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 95%;
+    height: 40px;
+    margin: 10px 0;
+}
+#ddd{
+    font-size: 5px;
+}
+.chk {
+    display: flex;
+    justify-content:left;
+    align-items: center;   
+}
+/* ::placeholder {
+    position: absolute;
+    top:0 ;
+} */
+.link button:hover{
+    background-color: tomato;
+}
+
+.active{
+    background-color: tomato !important;
+}
+
+.submit {
+    display: grid;
+    place-items: center;
+    padding: 0 50px;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 0;
+    width: 50%;
+    margin: auto;
+    text-decoration: none;
+    font-family: 'Silika', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.submit :hover {
+    display: grid;
+    place-items: center;
+    background-color: blue;
+    width: 50%;
+}
+button .submit {
+    display: grid;
+    place-items: center;
+}
+/* button .submit:hover {
+    color: blue !important;
+} */
+/* @media(min-width:425px) {
+    
+    .impwal {
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        margin:10px 50px;
+        
+    }
+
+}
+@media(min-width:768px) {
+    .impwal {
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        margin:10px 200px;
+        
+    }
+    
+
+.inpass{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border:1px solid black;
+    padding: 10px 0;
+    width: 80%;
+    margin: 10px 0;
+}
+
+.forms h1 {
+   
+    font-family: 'Silika', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.forms h2 {
+    font-family: 'Silika', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    
+}
+.submit {
+    width: 50%;
+}
+
+}
+@media(min-width:1024px) {
+    .impwal {
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        margin:10px 300px;
+       
+    }
+    .head>h2 {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        color: blue;
+        font-family: "Silika", Sans-serif;
+        font-size: 20px;
+        font-weight: 600; 
+        margin: auto;
+       
+    }
+    
+      
+    .inpass{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        border:1px solid black;
+        padding: 10px 0;
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .forms h1 {
+      
+        font-family: 'Silika', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .forms h2 {
+        font-family: 'Silika', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        
+    }
+    button {
+        font-family: 'Silika', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    ::placeholder {
+        position: absolute;
+        top:0 ;
+        font-size: 16px;
+    }
+    .submit {
+        width: 50%;
+    }
+
+    
+}
+
+
+
+
+
+
+   
+   
+
+
+    */
